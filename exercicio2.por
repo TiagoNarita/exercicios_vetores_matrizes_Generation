@@ -8,7 +8,7 @@ programa {
     }
 
     para(inteiro j = 0; j < 10; j++){
-      se (vetor[j] % 1){
+      se (vetor[j] % 2 == 1){
         escreva("Esse foram impars",vetor[j])
       }
     }
